@@ -1,3 +1,4 @@
+/* Left Bar for web page */
 
 .left_side
 {
@@ -6,28 +7,7 @@
     height: 1200px;
 }
 
-
-.dashboard_icon
-{
-    width:  25px;
-    height: 25px;
-    background-color: white;
-}
-
-
-.dashboard
-{
-    font-size: 35px;
-    font-weight: bold;
-    color: white;
-}
-
-
-.left_bar_first_filler
-{
-    height: 85px;
-    width: 250px;
-}
+/* Dashboard Row */
 
 .left_bar_dashboard
 {
@@ -37,8 +17,39 @@
     padding: 10px;
 }
 
-/* Home Bar */
-.left_bar_home
+.dashboard_icon
+{
+    width:  25px;
+    height: 25px;
+    background-color: white;
+}
+
+.dashboard
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+/* First Empty Space Row on Left Bar */
+.left_bar_first_filler
+{
+    height: 85px;
+    width: 250px;
+}
+
+
+/* Left Bar Flexbox Rows */
+
+.left_bar_home,
+.left_bar_profile,
+.left_bar_messages,
+.left_bar_history,
+.left_bar_tasks,
+.left_bar_communities,
+.left_bar_settings,
+.left_bar_support,
+.left_bar_privacy
 {
     display: flex;
     justify-content: space-around;
@@ -49,143 +60,33 @@
     color: white;
 }
 
-.home_icon
+/* Icons */
+
+.home_icon,
+.profile_icon,
+.messages_icon,
+.history_icon,
+.tasks_icon,
+.communities_icon,
+.settings_icon,
+.support_icon,
+.privacy_icon
 {
     width: 20px;
     height: 20px;
     background-color: white;
 }
 
-
-.home_filler
-{
-    width: 40px;
-}
-
-
-/* Profile Bar */
-.left_bar_profile
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.profile_icon
-{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-}
-
-.profile_filler
-{
-    width: 40px;
-}
-
-
-/* Messages */
-
-.left_bar_messages
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.messages_icon
-{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-}
-
+/* Flexbox Fillers */
+.home_filler,
+.profile_filler,
 .messages_filler
-{
-    width: 40px;
-}
-
-
-/* History */
-
-.left_bar_history
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.history_icon
-{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-}
-
-.history_filler
-{
-    width: 40px;
-}
-
-/* Tasks */
-
-.left_bar_tasks
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.tasks_icon
-{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-}
-
-.tasks_filler
-{
-    width: 40px;
-}
-
-
-/* Communities */
-
-.left_bar_communities
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.communities_icon
-{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-}
-
-.communities_filler
+.history_filler,
+.tasks_filler,
+.communities_filler,
+.settings_filler,
+.support_filler,
+.privacy_filler
 {
     width: 40px;
 }
@@ -198,76 +99,6 @@
     width: 250px;
 }
 
-/* Settings */
 
-.left_bar_settings
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
 
-.settings_icon
-{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-}
 
-.settings_filler
-{
-    width: 40px;
-}
-
-/* Support */
-
-.left_bar_support
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.support_icon
-{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-}
-
-.support_filler
-{
-    width: 40px;
-}
-
-/* Privacy */
-
-.left_bar_privacy
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 7px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-}
-.privacy_icon
-{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-}
-
-.privacy_filler
-{
-    width: 40px;
-}
