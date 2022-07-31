@@ -1,3 +1,5 @@
+
+
 /* Left Bar for web page */
 
 .left_side
@@ -52,12 +54,15 @@
 .left_bar_privacy
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     align-items: center;
     padding: 7px;
     font-size: 20px;
     font-weight: bold;
     color: white;
+    gap: 10px;
+    position: relative;
+    left: 20px;
 }
 
 /* Icons */
@@ -72,24 +77,33 @@
 .support_icon,
 .privacy_icon
 {
-    width: 20px;
-    height: 20px;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
 }
 
-/* Flexbox Fillers */
-.home_filler,
-.profile_filler,
-.messages_filler
-.history_filler,
-.tasks_filler,
-.communities_filler,
-.settings_filler,
-.support_filler,
-.privacy_filler
+
+
+/* Flexbox for Text */
+.home_txt,
+.profile_txt,
+.messages_txt,
+.history_txt,
+.tasks_txt,
+.communities_txt,
+.settings_txt,
+.support_txt,
+.privacy_txt
 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
     width: 40px;
 }
+
 
 
 /* Second Filler */
