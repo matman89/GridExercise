@@ -1,4 +1,20 @@
+*
+{
+    border: solid black 1px;
 
+}
+
+
+.master, html, body
+{
+    height: 100%;
+    margin: 0;
+}
+
+.master {
+    display: flex;
+    flex: 1;
+}
 
 /* Left Bar for web page */
 
@@ -6,7 +22,6 @@
 {
     background-color: rgb(37, 112, 250);
     width: 250px;
-    height: 1200px;
 }
 
 /* Dashboard Row */
@@ -112,6 +127,30 @@
     height: 85px;
     width: 250px;
 }
+
+
+.right_side
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+
+.top_right_bar
+{
+    height: 400px;
+    background-color: white;
+}
+
+.bottom_right_bar
+{
+    background-color: rgb(178, 193, 211);
+    flex: 1;
+}
+
+
 
 
 

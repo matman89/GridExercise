@@ -1,0 +1,19 @@
+*
+{
+    border: 1px solid black;
+}
+
+.Master
+{
+    display: flex;
+    flex: 1;
+}
+
+
+.left
+{
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    flex: 1;
+}
